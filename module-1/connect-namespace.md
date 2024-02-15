@@ -112,7 +112,7 @@ requirements:
     - A PREROUTING \
     - d 172.31.13.55 \
     - p tcp -m tcp --dport 5000 \
-    - j DNAT --to-destination 192.168.1.10:5000
+    - j DNAT --to-destination 192.168.0.4:5000
 
    # We successfully recieved traffic from internet inside container network 53.
 ```
